@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA SCHOOL | Official Website</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">MEDIA<span class="highlight">SMA DARUL FALAH</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#news">Berita</a></li>
+            <li><a href="#gallery">Galeri</a></li>
+            <li><a href="#team">Tim Kreatif</a></li>
+            <li><a href="#contact" class="btn-contact">Gabung</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Suara & Visu<br><span class="highlight">Generasi Muda</span></h1>
+            <p class="fade-in delay">Kami adalah organisasi media sekolah yang menghubungkan informasi, kreativitas, dan teknologi.</p>
+            <div class="hero-buttons fade-in delay-2">
+                <a href="#news" class="btn primary-btn">Baca Berita</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Kami</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text scroll-hidden">
+                    <h3>Membangun Narasi Masa Depan</h3>
+                    <p>Media School bukan sekadar organisasi, melainkan laboratorium kreatif bagi siswa untuk mengasah kemampuan jurnalistik, sinematografi, dan broadcasting. Kami percaya setiap suara muda memiliki kekuatan untuk mengubah dunia.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Liputan Berita Sekolah</li>
+                        <li><i class="fas fa-check-circle"></i> Produksi Video Dokumenter</li>
+                        <li><i class="fas fa-check-circle"></i> Podcast & Siaran Radio</li>
+                    </ul>
+                </div>
+                <div class="about-img scroll-hidden">
+                    <img src="https://picsum.photos/id/453/600/400" alt="Team working">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Berita Terbaru</h2>
+                <div class="line"></div>
+            </div>
+            <div class="news-grid">
+                <!-- News Card 1 -->
+                <div class="news-card scroll-hidden">
+                    <div class="news-img">
+                        <img src="https://picsum.photos/id/1/600/400" alt="News 1">
+                        <span class="category">Jurnalistik</span>
+                    </div>
+                    <div class="news-content">
+                        <h4>Hasil Lomba Karya Jurnalistik 2023</h4>
+                        <p>Selamat kepada perwakilan sekolah yang berhasil meraih prestasi membanggakan...</p>
+                        <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- News Card 2 -->
+                <div class="news-card scroll-hidden">
+                    <div class="news-img">
+                        <img src="https://picsum.photos/id/180/600/400" alt="News 2">
+                        <span class="category">Broadcasting</span>
+                    </div>
+                    <div class="news-content">
+                        <h4>Persiapan Gala Dinner tahunan</h4>
+                        <p>Tim dokumenter sedang melakukan syuting di lokasi untuk merekam momen bersejarah...</p>
+                        <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- News Card 3 -->
+                <div class="news-card scroll-hidden">
+                    <div class="news-img">
+                        <img src="https://picsum.photos/id/20/600/400" alt="News 3">
+                        <span class="category">Teknologi</span>
+                    </div>
+                    <div class="news-content">
+                        <h4>Update Peralatan Studio Baru</h4>
+                        <p>Organisasi telah membeli kamera 4K dan mikrofon profesional untuk...</p>
+                        <a href="#" class="read-more">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section with Lightbox -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galeri Kegiatan</h2>
+                <div class="line"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item scroll-hidden"><img src="https://picsum.photos/id/10/800/600" alt="Gallery 1"></div>
+                <div class="gallery-item scroll-hidden"><img src="https://picsum.photos/id/11/800/600" alt="Gallery 2"></div>
+                <div class="gallery-item scroll-hidden"><img src="https://picsum.photos/id/12/800/600" alt="Gallery 3"></div>
+                <div class="gallery-item scroll-hidden"><img src="https://picsum.photos/id/13/800/600" alt="Gallery 4"></div>
+                <div class="gallery-item scroll-hidden"><img src="https://picsum.photos/id/14/800/600" alt="Gallery 5"></div>
+                <div class="gallery-item scroll-hidden"><img src="https://picsum.photos/id/15/800/600" alt="Gallery 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Team Section -->
+    <section id="team" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Struktur Organisasi</h2>
+                <div class="line"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/64/300/300" alt="Chairman">
+                    <h4>Navrila</h4>
+                    <span class="role">Wakil Ketua</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/65/300/300" alt="Vice President">
+                    <h4>Siti Sumariah</h4>
+                    <span class="role">Pembina</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/91/300/300" alt="Secretary">
+                    <h4>Ali fahmi</h4>
+                    <span class="role">Ketua</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Multimedia</h2>
+                <div class="line"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/64/300/300" alt="Chairman">
+                    <h4>Dika Aditya N</h4>
+                    <span class="role">Multimedia</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/65/300/300" alt="Vice President">
+                    <h4>Maulana Sidik</h4>
+                    <span class="role">Multimedia</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/91/300/300" alt="Secretary">
+                    <h4>Andika</h4>
+                    <span class="role">Multimedia</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Humas</h2>
+                <div class="line"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/64/300/300" alt="Chairman">
+                    <h4>Lucky</h4>
+                    <span class="role">Humas</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/65/300/300" alt="Vice President">
+                    <h4>Nikita</h4>
+                    <span class="role">Humas</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bendahara</h2>
+                <div class="line"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/91/300/300" alt="Secretary">
+                    <h4>Regina</h4>
+                    <span class="role">Bendahara</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sekertaris</h2>
+                <div class="line"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/64/300/300" alt="Chairman">
+                    <h4>Arqinara</h4>
+                    <span class="role">Sekretaris</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Talent</h2>
+                <div class="line"></div>
+            </div>
+            <div class="team-grid">
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/65/300/300" alt="Vice President">
+                    <h4>Adit</h4>
+                    <span class="role">Talent</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-card scroll-hidden">
+                    <img src="https://picsum.photos/id/91/300/300" alt="Secretary">
+                    <h4>Elsa Maharani</h4>
+                    <span class="role">Talent</span>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info scroll-hidden">
+                    <h2>Kontak Kami</h2>
+                    <p>Ingin bergabung atau sekadar bertanya? Kirimkan pesanmu.</p>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Gedung Student Center, Sekolah Kami</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>media@sekolah.ac.id</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+62 812 3456 7890</span>
+                    </div>
+                </div>
+                <form class="contact-form scroll-hidden" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Aktif" required>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option>Pilih Subjek</option>
+                            <option>Pendaftaran Anggota Baru</option>
+                            <option>Kerjasama Media</option>
+                            <option>Lainnya</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Pesan Kamu..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">MEDIA<span class="highlight">SCHOOL</span></div>
+                <p>&copy; 2023 Media School Organization. All Rights Reserved.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
